@@ -1533,12 +1533,12 @@ a.slicknav_item [class*=" fa-"] {
   transition: transform 0.4s ease-out;
 }
 .portfolio-group figcaption {
-  border-top: 5px solid #2f403c;
+  border-top: 5px solid #4A5AAE;
   color: #ffffff;
   top: 0;
   left: 0;
   padding: 30px 40px;
-  background-color: #5f807a;
+  background-color: #168de0;
   text-align: left;
   text-transform: none;
   position: relative;
