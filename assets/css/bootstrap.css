@@ -4,13 +4,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-
-@media screen and (max-width: 500px) {
-                       	#body-bg{
-			background-image: url(/../img/mobile_bg.jpg/) no-repeat center center fixed !important;
-                        background-size: cover;
-                        height: 100%;
-                        }
                 }
 body {
   margin: 0;
