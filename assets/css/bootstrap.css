@@ -178,6 +178,10 @@ td,
 th {
   padding: 0;
 }
+
+@media (min-width: 480px) {
+    background-image: url(../images/desktop_bg.jpg);
+}
 @media print {
   * {
     text-shadow: none !important;
