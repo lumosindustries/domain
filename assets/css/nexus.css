@@ -47,12 +47,12 @@ body {
   background-attachment: fixed;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../img/desktop_bg.jpg");
+  background-image: url("../img/mobile_bg.jpg");
   background-origin: padding-box;
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: 100% !important;
-  position: fixed;
+  position: relative;
 }
 .primary-container-background .primary-container {
   width: 1080px;
