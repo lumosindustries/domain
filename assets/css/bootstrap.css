@@ -285,7 +285,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #5b7a74;
+  color: #4A5AAE;
   text-decoration: underline;
 }
 a:focus {
@@ -2105,11 +2105,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #72968f;
-  border-color: #668982;
+  background-color: #168de0;
+  border-color: #4A5AAE;;
 }
 .btn-primary .badge {
-  color: #72968f;
+  color: #168de0;
   background-color: #ffffff;
 }
 .btn-success {
