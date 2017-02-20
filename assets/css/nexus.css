@@ -881,7 +881,7 @@ h1.logo-text a {
   display: block;
   padding: 10px 20px;
   outline: none;
-  color: #72968f;
+  color: #0E2496;
   font-size: 16px;
   font-weight: 300;
 }
@@ -903,7 +903,7 @@ h1.logo-text a {
 }
 .sidebar-nav ul li:hover a,
 .sidebar-nav ul li.active a {
-  color: #72968f;
+  color: #4A5AAE;
 }
 .sidebar-nav > li:last-child a {
   border: none;
@@ -1056,7 +1056,7 @@ h1.logo-text a {
   background-color: #f5f5f5;
 }
 .slicknav_menu {
-  background: #5f807a;
+  background: #4A5AAE;
   padding: 5px;
 }
 .slicknav_nav {
