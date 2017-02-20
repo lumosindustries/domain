@@ -179,13 +179,22 @@ th {
   padding: 0;
 }
 
-@media print {   
+@media only screen and (max-device-width: 480px) {
+   body {
+   background-image: url(../img/mobile_bg.jpg");
+	}    
+ }   
+
+@media only screen and (max-device-width: 480px) 
   * {
     text-shadow: none !important;
     color: #000 !important;
     background: transparent !important;
     box-shadow: none !important;
   }
+  body {
+  background-image: url(../img/mobile_bg.jpg");
+       }
   a,
   a:visited {
     text-decoration: underline;
@@ -250,6 +259,12 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+         body{
+           background: url('assets/img/mobile_bg.jpg') no-repeat center center fixed;
+           background-size: cover;
+           height: 100%;
+         }
 }
 * {
   -webkit-box-sizing: border-box;
