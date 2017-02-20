@@ -48,6 +48,12 @@ body {
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
   background-image: url("../img/desktop_bg.jpg");
+  @media (max-device-width: 480px)
+  { 
+  body {
+   background-image: url("../img/mobile_bg.jpg") no repeat center center fixed;
+  }    
+  }
   background-origin: padding-box;
   background-position: 50% 0;
   background-repeat: no-repeat;
