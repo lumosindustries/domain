@@ -185,13 +185,16 @@ th {
 	}    
  }   
 
-@media print {
+@media only screen and (max-device-width: 480px) 
   * {
     text-shadow: none !important;
     color: #000 !important;
     background: transparent !important;
     box-shadow: none !important;
   }
+  body {
+  background-image: url(../img/mobile_bg.jpg");
+       }
   a,
   a:visited {
     text-decoration: underline;
