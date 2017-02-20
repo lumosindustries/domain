@@ -250,6 +250,13 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+         body{
+           background: url('assets/img/mobile_bg.jpg') no-repeat center center fixed;
+           background-size: cover;
+           height: 100%;
+         }
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
