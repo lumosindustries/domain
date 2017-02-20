@@ -54,7 +54,7 @@ body {
   background-size: 100% !important;
   position: relative;
 }
-@media only screen and (max-width: 500px) {
+@media (max-width: 500px) {
                   #body-bg{
                         background-image: url("../img/mobile_bg.jpg") no-repeat center center fixed;
                         background-size: cover;
