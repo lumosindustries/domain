@@ -54,6 +54,9 @@ body {
   background-size: cover !important;
   position: relative;
 }
+@media (min-width: 480px) {
+    background-image: url(../images/desktop_bg.jpg);
+}
 .primary-container-background .primary-container {
   width: 1080px;
 }
