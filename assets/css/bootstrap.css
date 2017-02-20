@@ -179,12 +179,6 @@ th {
   padding: 0;
 }
 
-@media only screen and (max-device-width: 480px) {
-   body {
-   background-image: url(../img/mobile_bg.jpg");
-	}    
- }   
-
 @media print {
   * {
     text-shadow: none !important;
