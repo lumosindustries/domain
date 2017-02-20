@@ -52,7 +52,7 @@ body {
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: 100% !important;
-  position: relative;
+  position: fixed;
 }
 .primary-container-background .primary-container {
   width: 1080px;
