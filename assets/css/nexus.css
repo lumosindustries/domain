@@ -54,14 +54,6 @@ body {
   background-size: 100% !important;
   position: relative;
 }
-@media (max-width: 500px) {
-                  #body-bg{
-                        background-image: url("../img/mobile_bg.jpg") no-repeat center center fixed;
-                        background-size: cover;
-                        height: 100%;
-                        }
-                			}
-
 .primary-container-background .primary-container {
   width: 1080px;
 }
