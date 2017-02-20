@@ -179,11 +179,9 @@ th {
   padding: 0;
 }
 
-@media (min-width: 480px) {
-    background-image: url(../images/desktop_bg.jpg);
-}
-@media print {
+@media (min-width: 480px) print {
   * {
+	background-image: url(../images/desktop_bg.jpg);
     text-shadow: none !important;
     color: #000 !important;
     background: transparent !important;
